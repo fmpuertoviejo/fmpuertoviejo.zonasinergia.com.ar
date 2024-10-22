@@ -35,6 +35,13 @@
     .form-control {
       width: 70% !important;
     }
+    .iframe-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
   </style>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://extassisnetwork.com/player/Luna/luna.js"></script>
@@ -87,7 +94,9 @@
   });
 </script>
 
-<iframe src="//player.radioforge.com/v2/icecast.html?radiolink=https%3A%2F%2Fstream.zeno.fm%2Flsmgt6vhdxruv&radiotype=icecast&bcolor=8ecae6&image=https://i.postimg.cc/cCQdH4x1/logo-radio.png&facebook=https://www.facebook.com/fmpuerto.viejo.9&twitter=&title=FM PUERTO VIEJO 91.5&artist=RADIO ONLINE" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="max-width: 100%; display: block; margin: 20px auto;" width="367" height="227"></iframe>
+<div class="iframe-container">
+  <iframe src="//player.radioforge.com/v2/icecast.html?radiolink=https%3A%2F%2Fstream.zeno.fm%2Flsmgt6vhdxruv&radiotype=icecast&bcolor=8ecae6&image=https://i.postimg.cc/cCQdH4x1/logo-radio.png&facebook=https://www.facebook.com/fmpuerto.viejo.9&twitter=&title=FM PUERTO VIEJO 91.5&artist=RADIO ONLINE" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="max-width: 100%;" width="367" height="227"></iframe>
+</div>
 
 <!DOCTYPE html>
 <html>
